@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+.dark {
+    background-color: #161a1d;
+}
+
+header {
+    width: 90%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: rgb(241, 233, 240);
+    border-radius: 10px;
+    margin: auto;
+}
+
+header > h1 {
+    cursor: pointer;
+}
+
+h1 > img {
+    height: 100px;
+}
+
+header > h2 {
+    cursor: pointer;
+}
+
+header > button {
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.sectionIndex, .panierVide {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.panierVide {
+    background-color: rgb(241, 233, 240);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sectionIndex > article {
+    background-color: rgb(241, 233, 240);
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.sectionIndex > article:hover {
+    transform: scale(1.05);
+}
+
+.sectionIndex > article > img {
+    width: 100%;
+    height: 250px;
+}
+
+/* Deuxième page */
+
+.imgProduit {
+    width: 200px;
+    height: 250px;
+}
+
+.sectionProduit {
+    width: 90%;
+    background-color: rgb(241, 233, 240);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.sectionProduit > article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 50%;
+}
+
+.panierP {
+    font-size: 10px;
+}
+
+/* PANIER */
+
+.headerPanier {
+    margin-bottom: 20px;
+}
+
+.sectionPanier {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+article > img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.sectionPanier > article > div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sectionPanier > article {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgb(241, 233, 240);
+}
+
+.divPrix {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(241, 233, 240);
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+       padding: 0 20px;
+    }
+
+    h1 > img {
+        height: 70px;
+    }
+
+    header > h2 {
+        font-size: 1em;
+    }
+
+    .sectionIndex > article {
+        width: 100%;
+    }
+
+    .sectionProduit > article {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .description {
+        margin: auto;
+        width: 70%;
+    }
+}
+
+
+
