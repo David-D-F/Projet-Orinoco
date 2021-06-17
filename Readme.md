@@ -27,7 +27,7 @@ Site réalisé sans framework, 100% en JavaScript vanilla.
 
 Étape 1 :
 
-Télécharger en cliquant sur code en haut à droite 
+Télécharger le fichier en cliquant sur code en haut à droite 
 
 Étape 2 : 
 
