@@ -17,6 +17,8 @@ Site réalisé sans framework, 100% en JavaScript vanilla.
 
 » Possibilité de pouvoir retirer un élément du panier ✔
 
+» Mise en place d'un Dark Mode ✔
+
 ## Tâches à faire : 
 
 » Prix final ✘
