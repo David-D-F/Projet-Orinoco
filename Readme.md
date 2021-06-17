@@ -1,6 +1,6 @@
 # **Orinoco**
 
-Réalition du projet 5 de OPENCLASSROOMS, un site e-commerce.
+Réalisation du projet 5 de OPENCLASSROOMS, un site e-commerce.
 Site réalisé sans framework, 100% en JavaScript vanilla.
 
 ## Tâches effectuées: 
