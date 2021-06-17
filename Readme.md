@@ -22,3 +22,18 @@ Site réalisé sans framework, 100% en JavaScript vanilla.
 » Prix final ✘
 
 » Page de confirmation, avec l'adresse et le nom de personne ✘
+
+## Visualiser le projet ?
+
+Étape 1 :
+
+Télécharger en cliquant sur code en haut à droite 
+
+Étape 2 : 
+
+Ouvrir le terminal, diriger vous vers votre dossier ou contient le fichier JWDP5-master 2.
+Tapez la commande : node server
+
+Étape 3 :
+
+Lancez votre IDE, puis lancer index.html via live server. 
