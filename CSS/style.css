@@ -123,7 +123,11 @@ article > img {
 
 .sectionPanier > article > div {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.sectionPanier > article > div > button {
+    margin: 0px 2px;
 }
 
 .sectionPanier > article {
@@ -136,7 +140,8 @@ article > img {
 }
 
 .divPrix {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 100px;
     line-height: 100px;
     border-radius: 10px;
@@ -145,6 +150,29 @@ article > img {
     background-color: rgb(241, 233, 240);
     text-align: center;
     font-weight: bold;
+}
+
+#formulaire {
+    width: 90%;
+    background-color: rgb(241, 233, 240);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#confirmation {
+    display: block;
+    margin: auto;
+}
+
+#carte {
+    margin: auto;
+    padding: 10px;
 }
 
 @media screen and (max-width: 800px) {

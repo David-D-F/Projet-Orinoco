@@ -78,7 +78,8 @@ requete.onload = function () {
             let produit  = {
                 name: reponse.name,
                 prix: reponse.price,
-                img : reponse.imageUrl
+                img : reponse.imageUrl,
+                quantite : 1
             }
 
             btnAdd.addEventListener('click', () => {

@@ -19,23 +19,25 @@ Site réalisé sans framework, 100% en JavaScript vanilla.
 
 » Mise en place d'un Dark Mode ✔
 
+» Prix final ✔
+
+» Page de confirmation, avec l'adresse et le nom de personne ✔
+
 ## Tâches à faire : 
 
-» Prix final ✘
-
-» Page de confirmation, avec l'adresse et le nom de personne ✘
+» CSS à faire sur la page de confirmation ✘
 
 ## Visualiser le projet ?
 
 Étape 1 :
 
-Télécharger le fichier en cliquant sur code en haut à droite 
+- Télécharger le fichier en cliquant sur code en haut à droite 
 
 Étape 2 : 
 
-Ouvrir le terminal, diriger vous vers votre dossier ou contient le fichier JWDP5-master 2.
+- Ouvrir le terminal, diriger vous vers votre dossier ou contient le fichier JWDP5-master 2.
 Tapez la commande : node server
 
 Étape 3 :
 
-Lancez votre IDE, puis lancer index.html via live server. 
+- Lancez votre IDE, puis lancer index.html via live server. 
